@@ -2,7 +2,7 @@ import os
 import torch
 
 DATABASE_DIR = "database_images"
-QUERY_IMAGE_PATH = "/home/swaroop/task1/query.jpg/query1.jpg"
+QUERY_IMAGE_PATH = "/home/s/task/query.jpg/query1.jpg"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 MODEL_NAME_CLIP = "ViT-B/32"
